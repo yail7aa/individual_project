@@ -92,12 +92,12 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
     background: linear-gradient(30.2deg, #B90160 2.23%, #2E3192 99.51%);
 }
 
 button:active {
-    transform: scale(0.95);
+    transform: scale(0.95) !important;
     opacity: 0.8;
 }
 
@@ -168,7 +168,7 @@ header a, header p {
     background-color: #fff;
     border-radius: 12px;
     padding: 8px 12px;
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
     color: #2E3192;
     cursor: pointer;
 }
@@ -185,7 +185,7 @@ header a, header p {
 .header-number:active,
 .header-location:active,
 .header-visit:active {
-    transform: scale(0.95);
+    transform: scale(0.95) !important;
     opacity: 0.8;
 }
 
@@ -333,7 +333,7 @@ header a, header p {
 .about-card:hover {
     gap: -300px;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.1) !important;
 }
 
 .about-card:hover img {
@@ -362,7 +362,7 @@ header a, header p {
 
 
 .about-card:active {
-    transform: scale(0.9);
+    transform: scale(0.9) !important;
     opacity: 0.8;
 }
 
