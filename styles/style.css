@@ -187,7 +187,7 @@ button {
     padding: 15px 28px;
     background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
     color: #fff;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
 }
 
 button:hover {
@@ -259,7 +259,7 @@ header a, header p {
     gap: 12px;
     color: #fff;
     align-items: center;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
 }
 
 .header-number:hover,
@@ -380,7 +380,7 @@ header a, header p {
     min-width: 300px;
     justify-content: space-between;
     background-position: left;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
 }
 
 .about-card img {
@@ -505,7 +505,7 @@ header a, header p {
     gap: 24px;
     opacity: 0.4;
     transform: scale(0.95);
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out !important;
 }
 
 .review-card:hover {
